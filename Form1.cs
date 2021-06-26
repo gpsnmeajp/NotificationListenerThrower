@@ -116,7 +116,6 @@ namespace NotificationListenerThrower
                 try
                 {
                     setting = JsonSerializer.Deserialize<Setting>(json);
-                    open(setting);
                     PortTextBox.Text = setting.port;
                     LocalOnlyCheckBox.Checked = setting.localonly;
                     ViewerCheckBox.Checked = setting.viewer;
