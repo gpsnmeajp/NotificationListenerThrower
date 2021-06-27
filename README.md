@@ -2,8 +2,9 @@
 Get Windows 10 notifications and deliver via WebSocket.  
 Windows 10 の通知を取得し、WebSocketで配信します。  
 
-If you turn on Viewer and apply, the simple WebSocket client will work in your browser.  
+Turn on Viewer and apply, the simple WebSocket client will work in your browser.  
 ViewerをオンにしてApplyすると、ブラウザにて簡易WebSocketクライアントが動作します。  
+→ http://127.0.0.1:8000/
 
 [Download](https://github.com/gpsnmeajp/NotificationListenerThrower/releases/)
 
@@ -34,6 +35,18 @@ Administrator privileges are used to open HTTP ports to the outside world. (Base
 
 {"id":1, "title":"notification title","body":"notification body",}
 ```
+## Trouble
+Q. I can't access from another terminal. 別の端末からアクセスできない。  
+A. Turn off Local Only and click Apply and allow your PC's firewall. Local OnlyをオフにしてApplyをクリック。、PCのファイアーウォールを許可してください。  
+
+Q. 400 Bad Request  
+A. Turn off Local Only and click Apply. Local OnlyをオフにしてApplyをクリック。  
+
+Q. 404 Not found  
+A. Turn on Viewer and click Apply. ViewerをオンにしてApplyをクリック。  
+
+Q. 503 Service Unavailable  
+A. There are too many connections. Click Apply to disconnect. 続数が多すぎます。Applyをクリックで通信を切断します。  
 
 ## Reference
 https://docs.microsoft.com/ja-JP/windows/apps/design/shell/tiles-and-notifications/notification-listener
