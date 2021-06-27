@@ -6,6 +6,9 @@ Turn on Viewer and apply, the simple WebSocket client will work in your browser.
 ViewerをオンにしてApplyすると、ブラウザにて簡易WebSocketクライアントが動作します。  
 → http://127.0.0.1:8000/
 
+Works in Focus Assist (Do Not Disturb Mode)..  
+集中モードでも動作します。  
+
 [Download](https://github.com/gpsnmeajp/NotificationListenerThrower/releases/)
 
 ![](img/img1.png)
