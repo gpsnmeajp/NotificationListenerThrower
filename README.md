@@ -39,8 +39,11 @@ Administrator privileges are used to open HTTP ports to the outside world. (Base
 Q. I can't access from another terminal. 別の端末からアクセスできない。  
 A. Turn off Local Only and click Apply and allow your PC's firewall. Local OnlyをオフにしてApplyをクリック。、PCのファイアーウォールを許可してください。  
 
-Q. 400 Bad Request  
+Q. 400 Bad Request (Local Only=on)  
 A. Turn off Local Only and click Apply. Local OnlyをオフにしてApplyをクリック。  
+
+Q. 400 Bad Request (Local Only=off)  
+A. It is not a Websocket connection. Probably GET or POST? Websocket接続ではありません。おそらくGETやPOSTになっている？  
 
 Q. 404 Not found  
 A. Turn on Viewer and click Apply. ViewerをオンにしてApplyをクリック。  
