@@ -10,6 +10,7 @@ ViewerをオンにしてApplyすると、ブラウザにて簡易WebSocketクラ
 
 ![](img/img1.png)
 ![](img/img2.png)
+![](img/img3.png)
 
 ## Specification
 The settings are saved in setting.json in the same folder.  
